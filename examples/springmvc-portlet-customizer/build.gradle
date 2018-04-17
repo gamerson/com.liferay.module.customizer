@@ -16,9 +16,9 @@ apply plugin: "java"
 
 import org.osgi.framework.Version
 
-def groupId = "?"
-def artifactId = "?"
-def version = "?"
+def groupId = "com.liferay"
+def artifactId = "com.liferay.blade.springmvc.portlet"
+def version = "1.0.0"
 def jarName = artifactId + "-" + version + ".jar"
 def targetDependencyDir = buildDir.toString() + '/targetDependency'
 def unzippedDir = targetDependencyDir + '/unzipped'
